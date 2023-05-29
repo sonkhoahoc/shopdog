@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: 'roboto',Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: auto;
+}
+.background{
+    width: 1250px;
+}
+.background>.background-1a{
+    opacity: 0.5;
+    position: relative;
+}
+.background>.background-2a{
+    position: absolute;
+    top: 25px;
+    left: 10%;
+}
+.background>.background-3{
+    position: absolute;
+    top: 25px;
+    left: 40%;
+    width: 40%;
+    background-color: white;
+    color: black;
+    line-height: 46px;
+    padding-left:5%;
+    padding-top: 1%;
+    font-weight: 200;
+    border-radius: 5px;
+}
+.background>.background-3>form>.a1{
+   
+    border: none;
+    border-bottom: 2px solid rgb(146, 143, 143);
+    width: 85%;
+    font-size: 14px;
+    height:  30px;
+    outline: none;
+    padding: 5px;
+}
+.background>.background-3>form>.a2{
+  
+    border: none;
+    border-bottom: 2px solid rgb(146, 143, 143) ;
+    width: 85%;
+    font-size: 14px;
+    height: 30px;
+    outline: none;
+    padding: 5px;
+    padding: 5px;
+}
+.background>.background-3>form>.a3{
+   margin-top: 10px;
+    width: 87%;
+    height: 47px;
+    background-color: rgb(47, 130, 239);
+    color: white;
+    border: 1px solid rgb(47, 130, 239);
+}
+.background>.background-3>form>.a3:hover{
+   
+     background-color:  rgb(86, 131, 190);
+     border: 1px solid rgb(86, 131, 190);
+ }
+.background>.background-3>.background-4{
+display: flex;
+}
+.background>.background-3>.background-4 a{
+    color: black;
+    font-size: 15px;
+}
+.background>.background-3>.background-5{
+    padding-left: 5%;
+}
+.background>.background-3>.background-6{
+    display: inline-block;
+    margin-left: 20%
+}
+.background>.background-3>.background-6>a i{
+    font-size: 30px;
+    margin-left: 20px;
+    transition: 1s;
+}
+.background>.background-3>.background-6>a i:hover{
+    transform: scale(1.5,1.5);
+}
+
+@media (max-width: 900px)
+{
+  
+    .background>.background-3{
+        top: 20%;
+        left: 5%;
+        width: 90%;
+    }
+}
+@media (max-width:1100px) {
+    .background-2a{
+        display: none;
+    }
+     
+}

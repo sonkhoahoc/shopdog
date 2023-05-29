@@ -1,0 +1,165 @@
+
+.gbtr_dark_footer_wrapper, .gbtr_dark_footer_wrapper .widget h4.widget-title, .gbtr_dark_footer_wrapper .widget .wcva_filter-widget-title, .gbtr_dark_footer_wrapper a, .gbtr_dark_footer_wrapper .widget ul li, .gbtr_footer_widget_copyrights a, .gbtr_dark_footer_wrapper .widget ul li a, .gbtr_dark_footer_wrapper .textwidget, .gbtr_dark_footer_wrapper #mc_subheader, .gbtr_dark_footer_wrapper ul.product_list_widget span.amount, .gbtr_dark_footer_wrapper .widget_calendar, .gbtr_dark_footer_wrapper .mc_var_label, .gbtr_dark_footer_wrapper .tagcloud a, .trigger-footer-widget-area {
+    color: #fff;
+}
+.gbtr_dark_footer_wrapper, .gbtr_dark_footer_wrapper .tagcloud a {
+    background-color: #000;
+}
+.gbtr_dark_footer_wrapper {
+    padding: 30px 0 0;
+}
+.gbtr_footer_wrapper .bottom_wrapper .gbtr_footer_widget_credit_cards img {
+    width: auto;
+    max-height: 30px;
+}
+.gbtr_footer_widget_copyrights {
+    color: #ffffff;
+}
+.gbtr_footer_wrapper .bottom_wrapper .gbtr_footer_widget_copyrights {
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: right;
+}
+.widget .widget-title {
+    border-bottom: 2px solid;
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    text-transform: uppercase;
+}
+.gbtr_footer_wrapper {
+    background: #000000;
+}
+.global_content_wrapper, .tr_content_wrapper {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    clear: both;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+    width: 100%;
+}
+
+
+.best-sellers {
+    display: flex;
+    margin: 40px auto 0;
+    flex-wrap: wrap;
+}
+
+.best-sellers .item:first-child h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
+    word-spacing: 4px;
+    color: #333;
+    padding-bottom: 5px;
+}
+
+.best-sellers .item:first-child small {
+    display: block;
+    font-style: italic;
+    font-size: 14px;
+    font-family: serif;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.best-sellers .item:first-child p {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 14px;
+    padding-top: 14px;
+}
+
+.best-sellers .item:first-child {
+    cursor: default;
+    padding: 10px;
+    box-shadow: none;
+}
+
+.best-sellers .item:first-child:hover {
+    top: 0;
+    outline: none;
+}
+/* Đặt biến dùng chung, màu chữ, màu chủ đề... */
+:root {
+    --text-color: #222;
+    --primary-color: red;
+}
+
+/* Font chữ */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    color: var(--primary-color);
+}
+
+/* 12 columns */
+.grid {
+    max-width: 98%;
+    margin: 0 auto;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 22.5%;
+    margin: 1.25%;
+}
+
+.item {
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    user-select: none;
+    padding-bottom: 10px;
+}
+
+.item:hover {
+    position: relative;
+    top: -4px;
+    outline: var(--primary-color) 1px solid;
+}
+
+.btn {
+    border: none;
+    background-color:#e92e2e;
+    padding: 8px 12px;
+    border-radius: 3px;
+    margin-left: 4px;
+    color: #fafafa;
+}
+
+.btn:hover {
+    background-color: #11ca6b;
+    cursor: pointer;
+}

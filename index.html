@@ -1,0 +1,572 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+    <style>
+        .submenu {
+            display: none;
+            position: absolute;
+            background: #f1f1f1;
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            width: 10rem;
+            right: 7rem;
+        }
+        .submenu>li{
+            height: 3rem;
+            border-bottom: 1px #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        .submenu a{
+            text-emphasis: underline;
+        }
+        .nav-item:hover .submenu a {
+            text-decoration: none;
+        }
+        .submenu li {
+            border-bottom: 1px solid black;
+            background: #0074d3;
+        }
+        .submenu li a {
+            color: rgba(255,255,255,.5);
+        }
+        .submenu li {
+            opacity: 1;
+        }
+        .submenu li:hover {
+            opacity: 0.5;
+        }
+        .nav-item:hover .submenu {
+        display: block;
+        }
+    </style>
+
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/efc950493a.js" crossorigin="anonymous"></script>
+    <title>Đồ Chơi</title>
+  </head>
+
+<body>
+    <section id="top">
+        <div class="container-fluid topsection">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a href="" class="navbar-brand">DaoThanh</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                    aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Sản Phẩm</a>
+                            <ul class="submenu" id="submenu">
+                                <li><a href="#">Sản Phẩm 1</a></li>
+                                <li><a href="#">Sản Phẩm 2</a></li>
+                                <li><a href="#">Sản Phẩm 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Liên hệ</a>
+                        </li>    
+                    </ul>
+                    <a href="auth_form.html"><i style="color: aliceblue; font-size: 25px;" class="fa fa-user" aria-hidden="true"></i></a>
+                </div>
+            </nav>
+        </div>
+        <div class="container top2">
+            <div class="row">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container detabout ">
+            <div class="row justify">
+                <div class="col-md-3 col-6 justify blue">
+                    <i class="fas ic fa-store"></i><!-- ic=icon in features-->
+                    <h3>Shop đồ chơi thú cưng - Hưng Yên🐕</h3>
+                </div>
+                <div class="col-md-3 col-6 justify pur">
+                    <i class="far ic fa-check-circle"></i>
+                    <h3>Sản phẩm chất lượng cao của các sắc thái khác nhau✔</h3>
+                </div>
+                <div class="col-md-3 col-6 justify blue">
+                    <i class="fas ic fa-truck"></i><!-- ic=icon in features-->
+                    <h3>Giao hàng khắp cả nước 🚚</h3>
+                </div>
+                <div class="col-md-3 col-6 justify pur">
+                    <i class="fas ic fa-tags"></i><!-- ic=icon in features-->
+                    <h3>Ưu đãi lớn, sản phẩm với chi phí tối thiểu</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id=product>
+        <div class="sticky-top">
+            <div class="container-fluid products">
+                <h2 id="prod" class="d-inline">Sản Phẩm</h2>
+                <a id="carticon" class="d-inline float-right toggler" href="" data-toggle="collapse"
+                    data-target="#cart">Giỏ hàng <i class=" fas fa-shopping-cart "></i>
+                    <span class="badge badge-light">0</span></a>
+            </div>
+            <div class="collapse" id="cart">
+                <h4 class="empty">Giỏ hàng của bạn đang trống.</h4>
+                <div class="container-fluid list none">
+                    <div class="row heading">
+                        <div class="col-5">
+                            <h4 class="a">Các mục đã chọn</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="a">Giá</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="a">SL</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="a">Tổng cộng</h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Chuột đồ chơi</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>100000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>100000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Cục lắc thú cưng</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>100000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>100000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Gậy chơi với mèo</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>220000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>220000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Đồ ngậm cho thú cưng</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>135000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>135000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Que lông gà</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>50000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>50000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Dây đồ chơi</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>150000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>150000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Cặp cho thú cưng</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>800000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>800000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <div class="row item none">
+                        <div class="col-5">
+                            <h4>Gà đồ chơi</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4>150000</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="quantity">1</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class=tprice>150000</h4>
+                        </div>
+                        <div class="col-1">
+                            <a class="removebtn"><i class="fas fa-times"></i></a>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row heading">
+                        <div class="col-5"></div>
+                        <div class="col-2"></div>
+                        <div class="col-2 b">
+                            <h4 class="">Tổng cộng</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="fprice">0</h4>
+                        </div>
+                        <div class="col-1">
+
+                        </div>
+                    </div>
+                    <div class="row heading">
+                        <div class="col-3">
+                            <input id="coupon" type="text" class="ede form-control" placeholder="Coupon">
+                        </div>
+                        <div class="col-4">
+                            <button type="submit" id="apply" class="ede btn btn-outline-light">Áp dụng</button>
+                        </div>
+                        <div class="col-2 b">
+                            <h4 id="topay" class="">Thanh toán</h4>
+                        </div>
+                        <div class="col-2">
+                            <h4 class="fprice">0</h4>
+                        </div>
+                        <div class="col-1">
+                        </div>
+                    </div>
+                    <div class="row heading">
+                        <div class="col-3">
+                            <p id="d50" class="ede text-white none">Giảm giá 50 k được áp dụng.</p>
+                        </div>
+                        <div class="col-4">
+                            <button type="submit" id="placeorder" class="ede btn btn-outline-light">Đặt hàng</button>
+                        </div>
+                        <div class="col-2">
+                        </div>
+                        <div class="col-2">
+                        </div>
+                        <div class="col align-self-end">
+                            <i data-toggle="collapse" data-target="#cart" style="color: white; "
+                                class="float-right fas fa-arrow-circle-up fa-2x"></i>
+                        </div>
+                    </div>
+                    <!-- <br>
+                    <div id="closer" class="row">
+                        <div class="col align-self-end">
+                            <i data-toggle="collapse" data-target="#cart" style="color: white; "
+                                class="float-right fas fa-arrow-circle-up fa-2x"></i>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+        </div>
+        <div id="catalogue" class="container prodcards">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/11.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Chuột đồ chơi</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước</p>
+                                    <p class="d-inline cost">100.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">
+                                        Mua</button>
+                                   
+                                        <a href="product01.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+                    
+                                        
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/12.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cục lắc thú cưng</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">100.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product02.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/13.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gậy chơi với mèo</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">220.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product03.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/14.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Đồ ngậm cho thú cưng</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">135.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product04.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/15.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Que lông gà</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">50.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product04.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/16.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dây đồ chơi</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">150.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product02.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/17.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Cặp cho thú cưng</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">800.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product03.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img src="img/18.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Gà đồ chơi</h5>
+                                    <p class="card-text">Đồ chơi cho thú cưng chất lượng cao. Sản Phẩm không gây độc hại cho thú cưng. Uy tính số 1 cả nước
+                                    </p>
+                                    <p class="d-inline cost">150.000đ</p>
+                                    <button type="button" class="addtocartB btn btn-primary float-right">Mua</button>
+                                    <a href="product04.html"><input class="btn-view"type="button" value="Chi tiết" /> </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h4 class="endline">DaoThanh</h4>
+            <p class="endlines">Shop đồ chơi cho thú cứng hàng đầu Việt Nam</p>
+            <div class="row last">
+                <div class="col-md-6 touch">
+                    <span class="details">Contact Us:</span><br>
+                    <span class="details">Email: dochoithucung@gmail.com</span><br>
+                    <span class="details">Địa chỉ: Phố Nối, Hưng Yên</span><br>
+                    <span class="details">Sđt: 0384667759</span>
+
+
+                </div>
+                <div class="col-md-6">
+                    <h3 class="endliness">theo dõi chúng tôi</h3>
+                    <div class="social">
+                       
+                <a href="https://www.facebook.com/profile.php?id=100067469436971&mibextid=LQQJ4d"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067469436971&mibextid=LQQJ4d"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067469436971&mibextid=LQQJ4d"><i class="fab fa-google-plus-g"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067469436971&mibextid=LQQJ4d"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067469436971&mibextid=LQQJ4d"><i class="fab fa-pinterest-square"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100067469436971&mibextid=LQQJ4d"><i class="fab fa-instagram"></i></a>
+                
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+
+    </script>
+    <script>
+        function showSubmenu() {
+  var submenu = document.getElementById("submenu");
+  submenu.style.display = "block";
+}
+
+function hideSubmenu() {
+  var submenu = document.getElementById("submenu");
+  submenu.style.display = "none";
+}
+
+    </script>
+</body>
+
+</html>

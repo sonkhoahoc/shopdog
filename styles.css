@@ -1,0 +1,345 @@
+html{
+    scroll-behavior: smooth;
+  }
+  #catalogue > div > div:nth-child(1) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 0px;
+  }
+  #catalogue > div > div:nth-child(2) > div > div > div.col-8 > div > button{margin: 3px 0px 0px 0px;}
+  #catalogue > div > div:nth-child(3) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 0px;
+  }
+  #catalogue > div > div:nth-child(4) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 3px;
+  }
+  #catalogue > div > div:nth-child(5) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 3px;
+  }
+  #catalogue > div > div:nth-child(6) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 3px;
+  }
+  #catalogue > div > div:nth-child(7) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 3px;
+  }
+  #catalogue > div > div:nth-child(8) > div > div > div.col-8 > div > button{
+    margin: 3px 0px 0px 3px;
+  }
+.btn-view{
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 0px 60px;
+    
+    background-color: #0074d3;
+    padding: 6px 12px;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+/* top part */
+.iconuser{
+    size: 10px !important;
+}
+#top{
+    background-image: url(111111.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+.topsection{
+    padding: 0% 12%;
+    background: #0074d3;
+}
+.nav-link{
+    font-size: 1.2rem;
+    margin: 0% 10px;
+}
+.navbar-brand{
+    font-family: 'Piedra', cursive;
+    font-size: 3rem;
+    margin: 1% 0%;
+}
+.navbar-brand:hover{
+    transform: scale(1.1);
+}
+#intro{
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 4rem;
+}
+.top2{
+    margin: 5% 12%;
+}
+@media only screen and (max-width: 760px){
+    #top{
+        background-image: url(bgmob.jpg);
+    }
+    .topsection{
+        padding: 0% 4%;
+    }
+    .nav-link{
+        margin: 0% 0px;
+    }
+    #intro{
+        font-size: 2.5rem;
+    }
+    .top2{
+        margin: 8% 0%;
+        padding: 0% 7%;
+    }
+    
+}
+/* about */
+.ic{
+    font-size: 100px;
+    margin-bottom: 10%;
+}
+.ic:hover{
+    transform: scale(1.08);
+    
+}
+.pur{
+    color:#6f42c1;
+}
+.blue{
+    color:#007bff;
+}
+.justify{
+    align-content: center;
+    text-align: center;
+}
+h3{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.detabout{
+    padding: 5% 0%;
+}
+@media only screen and (max-width: 760px){
+    .ic{
+        font-size: 60px;
+        margin-bottom: 10%;
+    }
+    h3{
+        font-size: 1.7rem;
+    }
+    .detabout{
+        padding: 5% 5%;
+    }
+    .justify{
+        margin: 5% 0%;
+    }
+}
+.products{
+    background-image: url(bg.jpg);
+    padding: 1% 13.5%;
+}
+#prod{
+    color: white;
+    font-family: 'Chelsea Market', cursive;
+}
+#carticon{
+    color: white;
+    font-size: 1.7rem;
+    font-family: 'Chelsea Market', cursive;
+    text-decoration: none;
+    opacity: 0.8;
+}
+#carticon:hover{
+    opacity: 1;
+}
+.badge{
+    font-size: 1rem;
+}
+.prodcards{
+    padding: 3% 0%;
+}
+.card{
+    margin: 2% 2%;
+}
+.card-title{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1.5rem;
+}
+.card-text{
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.3rem;
+    line-height: 100%;
+}
+.cost{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.col-md-6{
+    padding: 0%;
+}
+.row{
+    padding: 0%;
+    margin: 0%;
+  }
+.card-img:hover{
+    opacity: 0.8;
+}
+@media only screen and (max-width: 760px){
+    .products{
+        padding: 3% 5%;
+    }
+    #prod{
+        font-size: 1.6rem;
+    }
+    #carticon{
+        font-size: 1.4rem;
+    }
+    .prodcards{
+        padding: 5% 0%;
+    }
+    .card{
+        margin: 1% 0%;
+    }
+}
+#contacts{
+    background-image: url(bgend.jpg);
+    padding: 2.5% 0%;
+}
+.endline{
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+    color: white;
+}
+.endlines{
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 1rem;
+    color: white;
+}
+.endliness{
+    text-align: center;
+    font-family: 'Chelsea Market', cursive;
+    font-size: 2rem;
+    color: white;
+}
+.social-icon{
+    margin: 10px 10px;
+    color: white;
+    
+  }
+.details{
+    color: white;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 1.3rem;
+    line-height: 100%;
+}
+.last{
+    margin-top: 4%;
+}
+.social{
+    text-align: center;
+    font-size: 30px;
+}
+.lastones{
+    text-align: center;
+}
+.touch{
+    padding-left: 8%;
+}
+@media only screen and (max-width: 760px){
+    #contacts{
+        padding: 4% 0%;
+    }
+    .endline{
+        text-align: center;
+        font-family: 'Chelsea Market', cursive;
+        font-size: 2rem;
+        color: white;
+    }
+    .details{
+        color: white;
+        font-family: 'Tenali Ramakrishna', sans-serif;
+        font-size: 1.3rem;
+    }
+    .last{
+        margin-top: 10%;
+    }
+    .touch{
+        padding: 0% 12%;
+    }
+    .social{
+        margin-top: 4%;        
+    }
+}
+
+
+.none{
+    display: none;
+}
+
+/* cart */
+.list
+{
+    padding: 3% 20% 2%;
+    background-color: #1b87df;
+}
+h4,.fa-times{
+    color: white;
+}
+h4{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+}
+.fa-arrow-circle-up,.fa-times{
+    opacity: 0.8;
+}
+.fa-arrow-circle-up:hover,.fa-times:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.empty{
+    text-align: center;
+    background-color: #1b87df;
+    padding: 3% 15%;
+}
+.a{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.5rem;
+}
+#closer{
+    background-color: #1b87df;
+}
+.ede{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+}
+#placeorder{
+    margin-top: 3%;
+}
+@media only screen and (max-width: 760px){
+    .list
+    {
+        padding: 5% 0% 4%;
+    }
+    h4{
+        font-size: 0.9rem;
+    }
+    .a{
+        font-size: 1.2rem;
+    }
+    .empty{
+        padding: 5% 10%;
+    }
+    .ede{
+        font-size: 0.8rem;
+    }
+    .b{
+        padding: 0%;
+    }
+    #coupon{
+        padding: 1% 10%;
+    }
+}
+
+/* Update Menu */
+
+  
+  
